@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>강동자바라 알루미늄 방범창 견적센터</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+<section class="hero">
+<div class="logoBox"><img src="images/logo.png" alt="강동자바라 로고"></div>
+<div class="eyebrow">KANGDONG JABARA QUOTE CENTER</div>
+<h1>알루미늄 방범창<br><span>예상 견적 계산기</span></h1>
+<p>가로·세로 사이즈와 조립 여부를 선택하면 예상금액을 바로 확인할 수 있습니다.</p>
+</section>
+
+<section class="quoteWrap">
+<div class="productCard">
+<div class="productImage"><img src="images/product.png" alt="알루미늄 방범창 제품 이미지"></div>
+<div class="productText"><strong>맞춤 제작 알루미늄 방범창</strong><p>계산 후 견적내용을 복사해서 문의하시면 상담이 빨라집니다.</p></div>
+</div>
+
+<div class="calcCard">
+<div class="formArea">
+<h2>사이즈 선택</h2>
+<label for="width">가로 사이즈(cm)</label><select id="width"></select>
+<label for="height">세로 사이즈(cm)</label><select id="height"></select>
+<label class="switch"><input type="checkbox" id="assemble"><span class="slider"></span><span class="switchText">조립 요청 <b>+20,000원</b></span></label>
+<div class="guide"><b>주문 안내</b><span>실제 주문 시 쇼핑몰 옵션에서도 동일한 가로·세로 사이즈를 선택해주세요.</span></div>
+</div>
+
+<div class="resultArea">
+<div class="resultBox"><span>예상금액</span><strong id="total">14,000원</strong><p id="detail">가로 60cm / 세로 60cm / 조립요청 없음</p></div>
+<div class="breakdown">
+<div><span>기본가격</span><b id="basePrice">14,000원</b></div>
+<div><span>가로 추가금</span><b id="widthPrice">0원</b></div>
+<div><span>세로 추가금</span><b id="heightPrice">0원</b></div>
+<div><span>조립비</span><b id="assemblePrice">0원</b></div>
+</div>
+<div class="buttons"><button id="copyBtn" type="button">견적내용 복사</button><a href="tel:01030500482">전화문의 010-3050-0482</a></div>
+<p class="notice">※ 본 계산기는 예상 견적용입니다. 맞춤 제작 제품 특성상 상담 후 최종 견적이 확정됩니다.</p>
+</div>
+</div>
+</section>
+
+<footer><b>강동자바라</b><span>스테인리스·알루미늄 구조물 맞춤 제작</span></footer>
+</main>
+<script src="prices.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
